@@ -20,7 +20,8 @@ This blog is powered by [Jekyll](https://jekyllrb.com/) and [TeXt Theme](https:/
 
 #### February 👆
 
--
+- 增加 home page, 并将 logo 路由至 home page
+- 调整 blogs, archive 以及 about 的路由
 - 修改 logo
 - 完善 About 主页
 - 修正图片链接问题，增加图床
