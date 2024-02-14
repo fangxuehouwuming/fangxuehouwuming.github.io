@@ -4,7 +4,11 @@ title: About
 key: page-about
 ---
 
-<img src="/assets/mstile-70x70.png" alt="WLQ, SCUT, 2024" />
+<div align="center">
+    <img src="/assets/mstile-144x144.png" alt="WangLiQ, SCUT, 2024" style="border-radius: 50%;" />
+    <br />
+    <font size="3" color="#999"><u>WangLiQ, SCUT, 2024</u></font>
+</div>
 
 Hi, welcome to my personal blog! I write blogs to record my study process and share some study notes as well as tech experience.
 
@@ -16,6 +20,8 @@ This blog is powered by [Jekyll](https://jekyllrb.com/) and [TeXt Theme](https:/
 
 #### February 👆
 
+-
+- 修改 logo
 - 完善 About 主页
 - 修正图片链接问题，增加图床
 - 调整 code 字体大小
