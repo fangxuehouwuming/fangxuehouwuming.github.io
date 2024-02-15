@@ -42,13 +42,19 @@ pre.highlight {
 pre.highlight::before {
     content: attr(data-before);
     margin-top: -15px;
-    float: right;
+    float: left;
+
+    padding: 2px 5px; /* 添加内边距 */
+    border: 1px solid #000000; /* 添加边框 */
+    background-color: #5b7489; /* 添加背景颜色 */
+    border-radius: 5px; /* 添加圆角 */
 
     /* LANGUAGE NAME STYLE */
     font-family: 'Roboto Mono', monospace;
-    font-size: .8em;
+    font-size: .7em;
     letter-spacing: 1px;
-    color: #3bc47f;
+    font-weight: bold; /* 字体加粗 */
+    color: white; /* 字体颜色修改为白色 */
 }
 
 code {
@@ -62,6 +68,7 @@ code {
     padding: 0 3px;
     border: 1px solid #666;
     border-radius: 3px;
+    margin-top: 20px;
 }
 
 /* seperating inline code and multiline code */
@@ -70,7 +77,7 @@ pre.highlight code,
 figure.highlight code {
     padding: 0;
     color: #d6d6d6;
-    font-size: .8em;
+    font-size: .9em;
     border: none;
     background: none;
 }
@@ -87,7 +94,7 @@ span.ln { /* line numbers */
 /* syntax highlighting */
 
 .c     { color: #999; font-style: italic } /* Comment */
-.err   { color: #a61717; background-color: #000; } /* Error */
+/* .err   { color: #a61717; background-color: #000; } Error */
 .k     { color: #4287f5; } /* Keyword */
 .o     { color: #ff4d4d; } /* Operator */
 .cm    { color: #999; font-style: italic } /* Comment.Multiline */
