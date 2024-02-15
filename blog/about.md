@@ -20,6 +20,7 @@ This blog is powered by [Jekyll](https://jekyllrb.com/) and [TeXt Theme](https:/
 
 #### February 👆
 
+- 增加 BackToTop 功能一键返回顶部
 - 增加 home page, 并将 logo 路由至 home page
 - 调整 blogs, archive 以及 about 的路由
 - 修改 logo

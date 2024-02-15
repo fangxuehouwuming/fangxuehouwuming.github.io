@@ -1,25 +1,35 @@
 ---
 layout: none
 ---
+
 <!DOCTYPE html>
 {%- include snippets/get-lang.html -%}
 <html lang="{{ __return }}">
-  <head>
-    {%- include analytics.html -%}
-    {%- include head.html -%}
-    <script>
-      {%- include scripts/utils/utils.js -%}
-      {%- include scripts/lib/throttle.js -%}
-      {%- include scripts/lib/lazyload.js -%}
-    </script>
-    {%- include scripts/variables.html -%}
-  </head>
-  <body>
-    <div class="root" data-is-touch="false">
-      {{ content }}
-    </div>
-    <script>
-      {%- include scripts/common.js -%}
-    </script>
-  </body>
+	<head>
+		{%- include analytics.html -%} {%- include head.html -%}
+		<script>
+			{%- include scripts/utils/utils.js -%}
+			{%- include scripts/lib/throttle.js -%}
+			{%- include scripts/lib/lazyload.js -%}
+		</script>
+		{%- include scripts/variables.html -%}
+	</head>
+	<body>
+		<div class="root" data-is-touch="false">{{ content }}</div>
+		<script>
+			{%- include scripts/common.js -%}
+		</script>
+
+		<!-- Back To Top -->
+		<!-- _layouts/base.html -->
+		<script src="https://unpkg.com/vanilla-back-to-top@7.2.1/dist/vanilla-back-to-top.min.js"></script>
+		<script>
+			addBackToTop({
+				diameter: 30,
+				backgroundColor: "#FF4040",
+				textColor: "#FFFFF0",
+			});
+		</script>
+		<!-- End -->
+	</body>
 </html>
