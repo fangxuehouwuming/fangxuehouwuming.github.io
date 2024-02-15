@@ -1,26 +1,73 @@
 ---
 layout: base
-title: Tian Qi
-excerpt: Tian Qi | 田琦
 ---
 
-{%- if site.author.type == 'organization' -%}
-  {%- assign _author_itemtype = 'http://schema.org/Organization' -%}
-{%- else -%}
-  {%- assign _author_itemtype = 'http://schema.org/Person' -%}
-{%- endif -%}
+{%- if site.author.type == 'organization' -%} {%- assign _author_itemtype =
+'http://schema.org/Organization' -%} {%- else -%} {%- assign _author_itemtype =
+'http://schema.org/Person' -%} {%- endif -%}
 
 <div itemscope itemtype="{{ _author_itemtype }}" class="layout--author">
-  <div class="main">
-    <div class="content">
-      <div class="author-avatar">
-        <img itemprop="image" alt="my photo" src="/assets/mstile-144x144.png" />
-      </div>
-      <h1 itemprop="name" class="title-text">{{ site.author.name }}</h1>
-      {% include author-links.html author=site.author %}
-      <p><a itemprop="url" class="social-link blog" title="Visit my blog." href="/blog" target="_self">Visit My Blog</a></p>
-    </div>
-  </div>
+	<div class="main">
+		<div class="content">
+			<!-- Own css -->
+			<div class="homepage--container">
+				<div class="author-avatar">
+					<img
+						itemprop="image"
+						alt="my photo"
+						src="/assets/android-chrome-512x512.png"
+					/>
+				</div>
+
+				<div class="homepage--description">
+					<h1 class="homepage--description1">Fxhou</h1>
+					<span class="separator"></span>
+					<h2 class="homepage--description2">Never stop studying</h2>
+				</div>
+
+				<div class="button-container">
+					<a class="button--rounded" title="Blogs" href="/blog" target="_self">
+						<i class="fas fa-link"></i> BLOGS
+					</a>
+
+					<a
+						class="button--rounded"
+						title="About"
+						href="/blog/about.html"
+						target="_self"
+					>
+						<i class="fas fa-paw"></i> ABOUT
+					</a>
+				</div>
+				<!-- {% include author-links.html author=site.author %} -->
+				<div class="button-container">
+					<a target="_blank" href="https://github.com/fangxuehouwuming">
+						<span class="fa-stack fa-lg">
+							<i
+								class="fas fa-circle fa-stack-2x"
+								style="color: rgba(0, 0, 0, 0.4)"
+							></i>
+							<i class="fab fa-github-alt fa-stack-1x fa-inverse"></i>
+						</span>
+					</a>
+
+					<a href="2416811040@qq.com">
+						<span class="fa-stack fa-lg">
+							<i
+								class="fas fa-circle fa-stack-2x"
+								style="color: rgba(0, 0, 0, 0.4)"
+							></i>
+							<i class="fas fa-envelope fa-stack-1x fa-inverse"></i>
+						</span>
+					</a>
+				</div>
+				<!-- End -->
+			</div>
+		</div>
+
+		<script>
+			{%- include scripts/common.js -%}
+		</script>
+		{% include analytics.html %}
+	</div>
 </div>
-<script>{%- include scripts/common.js -%}</script>
-{% include analytics.html %}
