@@ -24,7 +24,7 @@ window.addEventListener('DOMContentLoaded', () => {
     }
     else {
       self.parentElement.setAttribute('data-before', languageName)
-      if (lines.length > 5) {
+      if (lines.length > 3) {
         // if number of lines is less than 5, code numbers are unnecessary.
         self.innerHTML = putLineNumbers(lines)
       }

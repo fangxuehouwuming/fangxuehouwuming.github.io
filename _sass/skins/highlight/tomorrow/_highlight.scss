@@ -1,3 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap');
+
+.language-terminal pre.highlight {
+    background: #101010;
+}
+
+pre.highlight {
+    /* CODE BLOCK STYLE */
+    background: #1a1a1a;
+    margin: 75px -18px;
+    padding: 25px 10px;
+    font-size: 0.9em;
+    border: 1px solid #666;
+    border-radius: 5px;
+    tab-size: 2;
+    -moz-tab-size: 2;
+    -o-tab-size: 2;
+    tab-size: 2;
+	white-space: pre-wrap;
+    white-space: -moz-pre-wrap;
+    white-space: -o-pre-wrap;
+    word-wrap: break-word;
+    letter-spacing: 0;
+} @media only screen and (max-width: 900px) {
+    .language-terminal pre.highlight {
+        border-radius: 0;
+    }
+    pre.highlight {
+        font-size: 0.8em;
+        border: none;
+        margin: 35px -18px;
+    }
+}
+
+pre.highlight::before {
+    content: attr(data-before);
+    margin-top: -15px;
+    float: left;
+
+    padding: 2px 5px; /* 添加内边距 */
+    border: 1px solid #000000; /* 添加边框 */
+    background-color: #5b7489; /* 添加背景颜色 */
+    border-radius: 5px; /* 添加圆角 */
+
+    /* LANGUAGE NAME STYLE */
+    font-family: 'Roboto Mono', monospace;
+    font-size: .7em;
+    letter-spacing: 1px;
+    font-weight: bold; /* 字体加粗 */
+    color: white; /* 字体颜色修改为白色 */
+}
+
+code {
+    /* FONT OF ALL CODES */
+    font-family: 'Roboto Mono', monospace;
+
+    /* INLINE CODE STYLE */
+    background: #0b0e0b;
+    color: #dd828c;
+    font-size: .9em;
+    padding: 0 3px;
+    border: 1px solid #666;
+    border-radius: 3px;
+    margin-top: 20px;
+}
+
+/* seperating inline code and multiline code */
+/* by neutrailizing the style */
+pre.highlight code,
+figure.highlight code {
+    padding: 0;
+    color: #d6d6d6;
+    font-size: .9em;
+    border: none;
+    background: none;
+}
+figure.highlight pre {
+    font-family: inherit;
+    font-size: inherit;
+}
+
+span.ln { /* line numbers */
+    user-select: none;
+    color: #666;
+}
+
+
+
 figure.highlight::before {
   color: $highlight-comment !important;
   background-color: $highlight-background !important;
