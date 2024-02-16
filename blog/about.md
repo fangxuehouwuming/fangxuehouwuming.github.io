@@ -20,6 +20,7 @@ This blog is powered by [Jekyll](https://jekyllrb.com/) and [TeXt Theme](https:/
 
 #### February 👆
 
+- 美化文字提示框
 - 增加代码一键复制
 - 增加 last modified 标签
 - 增加代码行号，代码块折叠
