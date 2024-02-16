@@ -209,6 +209,7 @@ plugins:
   - jekyll-paginate
   - jekyll-sitemap
   - jemoji
+  - premonition
 
 # ## => Markdown
 # ##############################
@@ -234,3 +235,72 @@ plugins:
 ## => Clipboard
 ##############################
 clipboard: false
+
+# premonition
+premonition:
+  default:
+    template: '<div class="premonition {{type}}">
+          <div class="header">
+            <i class="fas fa-quote-left" style="color: #acb1b9;"></i>
+            <div class="title"> {{title}} </div>
+          </div>
+          <div class="content">
+            {{content}}
+          </div>
+        </div>'
+  types:
+    citation:
+      template: '<div class="premonition {{type}}">
+          <div class="header">
+            <i class="fas fa-quote-left" style="color: #acb1b9;"></i>
+          </div>
+          <div class="content">
+            {{content}}
+          </div>
+          {% if title %}<div class="ref"> ------ {{title}} </div>{% endif %}
+        </div>'
+      default_title: ''
+    note:
+      template: '<div class="premonition {{type}}">
+            <div class="header">
+              <i class="fas fa-sticky-note" style="color: #87d8f2;"></i>
+              <div class="title"> {{title}} </div>
+            </div>
+            <div class="content">
+              {{content}}
+            </div>
+          </div>'
+      default_title: 'Note'
+    info:
+      template: '<div class="premonition {{type}}">
+            <div class="header">
+              <i class="fas fa-exclamation-circle" style="color: #4dbf4d;"></i>
+              <div class="title"> {{title}} </div>
+            </div>
+            <div class="content">
+              {{content}}
+            </div>
+          </div>'
+      default_title: 'Info'
+    warning:
+      template: '<div class="premonition {{type}}">
+            <div class="header">
+              <i class="fas fa-exclamation-triangle" style="color: #ffcf4d;"></i>
+              <div class="title"> {{title}} </div>
+            </div>
+            <div class="content">
+              {{content}}
+            </div>
+          </div>'
+      default_title: 'Warning'
+    error:
+      template: '<div class="premonition {{type}}">
+            <div class="header">
+              <i class="fas fa-times-circle" style="color: #fb7478;"></i>
+              <div class="title"> {{title}} </div>
+            </div>
+            <div class="content">
+              {{content}}
+            </div>
+          </div>'
+      default_title: 'Error'

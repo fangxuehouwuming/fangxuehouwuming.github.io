@@ -1,0 +1,133 @@
+// https://github.com/zhonger/jekyll-theme-H2O-ac/blob/551145e14e46ab62cfdca5eb2dc90510b98f8e02/dev/sass/premonition.scss
+$color-info-dark: #009400;
+$color-info-darker: #008b00;
+$color-info-darkest: #007300;
+$color-info-light: #26b226;
+$color-info-lighter: #4dbf4d;
+$color-info-lightest: #80d280;
+$color-info-contrast-background: #e6f6e6;
+$color-info-contrast-foreground: #003100;
+$color-info-code-background: rgba(0,164,0,.15);
+$color-note-dark: #4cb3d4;
+$color-note-darker: #47a9c9;
+$color-note-darkest: #3b8ba5;
+$color-note-light: #6ecfef;
+$color-note-lighter: #87d8f2;
+$color-note-lightest: #aae3f6;
+$color-note-contrast-background: #eef9fd;
+$color-note-contrast-foreground: #193c47;
+$color-note-code-background: rgba(84,199,236,.15);
+$color-warning-dark: #e6a700;
+$color-warning-darker: #d99e00;
+$color-warning-darkest: #b38200;
+$color-warning-light: #ffc426;
+$color-warning-lighter: #ffcf4d;
+$color-warning-lightest: #ffdd80;
+$color-warning-contrast-background: #fff8e6;
+$color-warning-contrast-foreground: #4d3800;
+$color-warning-code-background: rgba(255,186,0,.15);
+$color-error-dark: #e13238;
+$color-error-darker: #d53035;
+$color-error-darkest: #af272b;
+$color-error-light: #fb565b;
+$color-error-lighter: #fb7478;
+$color-error-lightest: #fd9c9f;
+$color-error-contrast-background: #fdf7f7;
+$color-error-contrast-foreground: #4b1113;
+$color-error-code-background: rgba(250,56,62,.15);
+$color-citation-darkest: #495057;
+$color-citation-contrast-background: #f8f9fa;
+$color-citation-contrast-foreground: #323940;
+$color-citation-code-background: #fdfdfe;
+
+.premonition {
+    p {
+        margin-bottom: 0;
+    }
+    &.note, &.info, &.warning, &.error, &.citation{
+        border-radius: 6.4px;
+        padding: 1rem;
+        margin-bottom: 1em;
+    }
+    &.note{
+        background-color: $color-note-contrast-background;
+        border-left: 5px solid $color-note-darkest;
+        color: $color-note-darkest;
+        code{
+            background-color: $color-note-code-background;
+            color: $color-note-darkest!important;
+        }
+        a{
+            color: $color-note-darkest!important;
+        }
+    }
+    &.info{
+        background-color: $color-info-contrast-background;
+        border-left: 5px solid $color-info-dark;
+        color: $color-info-dark;
+        code{
+            background-color: $color-info-code-background;
+            color: $color-info-dark!important;
+        }
+        a{
+            color: $color-info-dark!important;
+        }
+    }
+    &.warning{
+        background-color: $color-warning-contrast-background;
+        border-left: 5px solid $color-warning-dark;
+        color: $color-warning-dark;
+        code{
+            background-color: $color-warning-code-background;
+            color: $color-warning-dark!important;
+        }
+        a{
+            color: $color-warning-dark!important;
+        }
+    }
+    &.error{
+        background-color: $color-error-contrast-background;
+        border-left: 5px solid $color-error-dark;
+        color: $color-error-dark;
+        code{
+            background-color: $color-error-code-background;
+            color: $color-error-dark!important;
+        }
+        a{
+            color: $color-error-dark!important;
+        }
+    }
+    &.citation{
+        background-color: $color-citation-contrast-background;
+        border-left: 5px solid $color-citation-darkest;
+        color: $color-citation-darkest;
+        code{
+            background-color: $color-citation-code-background;
+            color: $color-citation-darkest!important;
+        }
+        a{
+            color: $color-citation-darkest!important;
+        }
+        .ref{
+            text-align: right;
+        }
+    }
+    .header{
+        font-weight: 700;
+        line-height: 17.5px;
+        margin-bottom: 0.3rem;
+        background-color: transparent !important;
+    }
+    code{
+        text-shadow: none;
+    }
+    .icon{
+        width: 18px;
+        height: 18px;
+        margin-bottom: -2px;
+        margin-right: 5px;
+    }
+    .title{
+        display: inline-block;
+    }
+}
