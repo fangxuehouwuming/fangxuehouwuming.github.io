@@ -1,4 +1,5 @@
 {%- assign _author = site.data.authors[include.article.author] | default: site.author -%}
+{%- assign _show_last_modified = include.article.last_modified -%}
 
 {%- if include.html != false -%}
 
@@ -74,6 +75,18 @@
               <li><i class="far fa-eye"></i> <span class="js-pageview" data-page-key="{{ include.article.key }}">0</span> {{ _locale_views }}</li>
             {%- endif -%}
           {%- endif -%}
+
+          <!-- Add last modified time -->
+          {%- if _show_author or _show_date or _pageview or _show_last_modified -%}
+            {%- if _show_last_modified -%}
+              <li>
+              {%- include snippets/get-locale-string.html key='ARTICLE_DATE_FORMAT' -%}
+              <i class="far fa-edit"></i> <span>{{ include.article.last_modified | date: __return }}</span>
+              </li>
+            {%- endif -%}
+          {%- endif -%}
+          <!-- End -->
+      
         </ul>
       {%- endif -%}
 
@@ -94,3 +107,6 @@
     <meta itemprop="keywords" content="{{ _keywords }}">
   {%- endif -%}
 {%- endif -%}
+
+
+

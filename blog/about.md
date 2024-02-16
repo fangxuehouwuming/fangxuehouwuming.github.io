@@ -20,9 +20,10 @@ This blog is powered by [Jekyll](https://jekyllrb.com/) and [TeXt Theme](https:/
 
 #### February 👆
 
-- 增加代码行号，一键复制功能
+- 增加 last modified 标签
+- 增加代码行号，代码块折叠
 - 增加 BackToTop 功能一键返回顶部
-- 增加 home page, 并将 logo 路由至 home page
+- 增加 home page，并将 logo 路由至 home page
 - 调整 blogs, archive 以及 about 的路由
 - 修改 logo
 - 完善 About 主页
