@@ -20,7 +20,8 @@ This blog is powered by [Jekyll](https://jekyllrb.com/) and [TeXt Theme](https:/
 
 #### February 👆
 
-- 美化文字提示框
+- 使用 [Github Actions](https://jekyllrb.com/docs/continuous-integration/github-actions/) 解决Jeklly 插件与 Github Pages 的安全不兼容问题
+- 美化文字提示框 (Soloved)
 - 增加代码一键复制
 - 增加 last modified 标签
 - 增加代码行号，代码块折叠
