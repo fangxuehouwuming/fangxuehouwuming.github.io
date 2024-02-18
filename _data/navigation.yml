@@ -19,3 +19,10 @@ header:
       zh-Hans: &ZH_HANS 关于
       # @end locale config
     url: /blog/about.html
+
+  - titles:
+      # @start locale config
+      en: &EN Todo
+      zh-Hans: &ZH_HANS 待办
+      # @end locale config
+    url: /blog/todo.html
