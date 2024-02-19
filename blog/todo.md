@@ -28,13 +28,13 @@ aside:
 
 感受：这门课基本满足了我想要进一步学C++特性和语法的需求，包括不限于auto binding, uniform initialization, lambda function, move semantics, RAII, smart pointers等，还讲了一些程序设计原则，十分受益；课程配套的代码不能算是作业，大部分是填充代码，或者是课件例子的实现，不过代码的输入输出还有注释提示很user friendly，值得一提的是每份code都配有solution，对课后巩固很有帮助；一开始还担心只看课件不看视频有所欠缺，实际课件质量很高，学过C++基础的直接看课件就行。  
 
-缺点：网上课程资源杂乱，视频资源少。我是结合[2022 winter](https://web.stanford.edu/class/archive/cs/cs106l/cs106l.1224/index.html)和[2023 spring](https://web.stanford.edu/class/archive/cs/cs106l/cs106l.1236/index.html)相互补充学的，22年的code比23年多，23年的某几节课课件做得更好；另外，大家普遍反馈这门课的assignments环境配置易出问题，22年的作业环境配置还需要mit学生账号来连服务器。总之，作业除了23年的HashMap外不推荐做。（ps：我学的时候课程正在更新2024 winter，24年的assignments不再是以前的WikiRacer和HashMap那几个了，具体质量不知）。
+美中不足：网上课程资源杂乱，视频资源少。我是结合[2022 winter](https://web.stanford.edu/class/archive/cs/cs106l/cs106l.1224/index.html)和[2023 spring](https://web.stanford.edu/class/archive/cs/cs106l/cs106l.1236/index.html)相互补充学的，22年的code比23年多，23年的某几节课课件做得更好；另外，大家普遍反馈这门课的assignments环境配置易出问题，22年的作业环境配置还需要mit学生账号来连服务器。总之，作业除了23年的HashMap外不推荐做。（ps：我学的时候课程正在更新2024 winter，24年的assignments不再是以前的WikiRacer和HashMap那几个了，具体质量不知）。
 
 ### MIT Web Development Crash Course
 时间：用的零散时间学习，少于一个月，不过课程的性质决定了不用花很长时间。
 
 感受：我是出于兴趣想学个Web开发技能，这门课基本满足我的心理和技术需求。课程知识点很密集，包含了前端三件套，react框架，mongoDB，api，socket编程等，基本覆盖了Web 开发的前后端大部分技术栈，但没有深入讲，更多的是掌握一个网站设计的核心内容；这门课有很大部分时间是在写代码，手把手的教写代码，课程自始至终通过构建，升级，完善一个网站来串通所有知识点。  
 
-亮点：课程资源丰富，油管有完整视频；coding多，课程代码仓库做的很好，每一步都有对应的git节点，仓库还提供了一个Web开发的skeleton可以复用。（ps：也是学了这门课才起了兴致做了这么个博客网站😛）  
+亮点：课程资源丰富，油管有完整视频；coding多，课程代码仓库做的很好，每一步都有对应的git节点，仓库还提供了一个Web开发的skeleton可以复用。（ps：也是学了这门课才起了兴致做了这么个博客网站😛，实际也没用上很多前端知识😥）  
 
 注：如果想学前端找工作，这门课是远远不够的。

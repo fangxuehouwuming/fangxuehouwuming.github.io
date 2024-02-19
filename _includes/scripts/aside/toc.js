@@ -31,5 +31,9 @@
       });
     }, 100));
 
+    $('#toggle-toc').click(function() {
+      $('.js-toc-root').slideToggle();
+    });
+
   });
 })();

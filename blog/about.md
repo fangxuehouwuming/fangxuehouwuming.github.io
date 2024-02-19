@@ -20,6 +20,7 @@ This blog is powered by [Jekyll](https://jekyllrb.com/) and [TeXt Theme](https:/
 
 #### February 👆
 
+- 增加文章目录栏显示/隐藏按钮
 - 使用 [Github Actions](https://jekyllrb.com/docs/continuous-integration/github-actions/) 解决Jekyll 插件与 Github Pages 的安全不兼容问题
 - 美化文字提示框 (Soloved)
 - 增加代码一键复制

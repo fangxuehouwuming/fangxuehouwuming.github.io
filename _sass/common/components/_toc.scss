@@ -1,4 +1,25 @@
 ul.toc {
+  height: calc(100vh - 100px);;
+  overflow-y: auto;
+
+  // 自定义滚动条样式
+  &::-webkit-scrollbar {
+    width: 2px; // 设置滚动条的宽度
+  }
+
+  &::-webkit-scrollbar-track {
+    background: #f1f1f1; // 设置滚动条轨道的颜色
+  }
+
+  &::-webkit-scrollbar-thumb {
+    background: #888; // 设置滚动条滑块的颜色
+  }
+
+  &::-webkit-scrollbar-thumb:hover {
+    background: #555; // 设置鼠标悬停时滚动条滑块的颜色
+  }
+
+
   display: block;
   margin: 0;
   color: $text-color;
@@ -79,7 +100,7 @@ ul.toc--ellipsis {
   & > li {
     @include overflow(hidden);
     text-overflow: ellipsis;
-    white-space: nowrap;
+    white-space: rap;
   }
 }
 
@@ -121,4 +142,32 @@ ul.toc--navigator {
       line-height: map-get($base, line-height-sm);
     }
   }
+}
+
+
+#toggle-toc {
+
+  display: block;
+  margin-left: auto;
+  margin-top: map-get($spacers, 3);
+  font-family: Arial;
+  font-weight: map-get($base, font-weight-bold);
+  font-size: map-get($base, font-size-sm);
+  
+  background-color: #7a9aa3;
+  border-radius: 12px;
+  border: none;
+  color: white;
+  padding: 12px 20px;
+  text-align: center;
+  text-decoration: none;
+  -webkit-transition-duration: 0.4s;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+
+#toggle-toc:hover {
+  background-color: #fff;
+  color: #7a9aa3;
+  border: 1px solid #ccc;
 }
