@@ -142,7 +142,7 @@ missing:~$ curl --head --silent google.com | grep --ignore-case content-length |
 > 第一个例子将ls -l的结果展示最后一行；第二个例子查看goole的http请求头的内容长度（没什么用）
 
 
-## 一个功能全面又强大的工具（sudo）
+## 一个功能全面又强大的工具（with sudo）
 
 对于大多数的类 Unix 系统，有一类用户是非常特殊的，那就是：根用户（root user）。
 您应该已经注意到了，在上面的输出结果中，根用户几乎不受任何限制，他可以创建、读取、更新和删除系统中的任何文件。
