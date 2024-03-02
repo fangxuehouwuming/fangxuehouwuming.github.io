@@ -8,7 +8,6 @@ aside:
 
 ## self-learning-list
 
-- [ ] [MIT-Missing-Semester](https://csdiy.wiki/%E7%BC%96%E7%A8%8B%E5%85%A5%E9%97%A8/MIT-Missing-Semester/)，选取部分资料学习,中文课程主页有配套习题解答和学习笔记看情况可速通
 - [ ] [CS106L的Assignment 3](https://web.stanford.edu/class/archive/cs/cs106l/cs106l.1236/index.html), STL HashMap
 - [ ] [AUT AP1400-2](https://csdiy.wiki/%E7%BC%96%E7%A8%8B%E5%85%A5%E9%97%A8/AUT1400/)，7个homework
 - [ ] [Haskell MOOC](https://csdiy.wiki/%E7%BC%96%E7%A8%8B%E5%85%A5%E9%97%A8/Haskell-MOOC/)函数式编程，语言Haskell，似乎没有视频，待定
@@ -19,6 +18,7 @@ aside:
 - [ ] [UMich EECS 498-007 / 598-005: Deep Learning for Computer Vision](https://csdiy.wiki/%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0/EECS498-007/)可以跳着学，作业质量据说很高，包括VAE, GAN的内容
 - [ ] [Columbia STAT 8201: Deep Generative Models](https://csdiy.wiki/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0%E8%BF%9B%E9%98%B6/STAT8201/)只有slides，包含GAN的理论知识，相对硬核
 - [ ] [图释 Gilbert Strang 的 “给每个人的线性代数”](https://github.com/kenjihiranabe/The-Art-of-Linear-Algebra)12页的pdf，图释线性代数
+- [x] [MIT-Missing-Semester](https://csdiy.wiki/%E7%BC%96%E7%A8%8B%E5%85%A5%E9%97%A8/MIT-Missing-Semester/)，选取部分资料学习,中文课程主页有配套习题解答和学习笔记看情况可速通
 - [x] [CS106L: Standard C++ Programming](https://csdiy.wiki/%E7%BC%96%E7%A8%8B%E5%85%A5%E9%97%A8/CS106L/) 这门课会深入到很多标准 C++ 的特性和语法，让你编写出高质量的 C++ 代码。
 - [x] [MIT Web Development Crash Course](https://csdiy.wiki/Web%E5%BC%80%E5%8F%91/mitweb/)为期 4 周，基本覆盖了 Web 开发的前后端大部分技术栈。
 
