@@ -6,6 +6,7 @@ author: Fxhou
 date: 2024-02-23
 excerpt: MIT-Missing-Semester-第五节课-命令行环境
 clipboard: true
+key: 2024-02-23-shell
 ---
 
 当您使用 shell 进行工作时，可以使用一些方法改善您的工作流，本节课我们就来讨论这些方法。
