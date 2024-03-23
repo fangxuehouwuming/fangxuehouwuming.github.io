@@ -20,7 +20,7 @@ This blog is powered by [Jekyll](https://jekyllrb.com/) and [TeXt Theme](https:/
 
 #### March 👆
 
-- 增加 Gitalk 评论功能并更新 gitalk 版本修复部分问题
+- 增加 Gitalk 评论功能并更新 gitalk 版本修复访问问题 ([issue](https://github.com/kitian616/jekyll-TeXt-theme/pull/373))
 
 #### February 👆
 
