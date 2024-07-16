@@ -12,12 +12,12 @@ aside:
 - [ ] [AUT AP1400-2](https://csdiy.wiki/%E7%BC%96%E7%A8%8B%E5%85%A5%E9%97%A8/AUT1400/)，7个homework
 - [ ] [Haskell MOOC](https://csdiy.wiki/%E7%BC%96%E7%A8%8B%E5%85%A5%E9%97%A8/Haskell-MOOC/)函数式编程，语言Haskell，似乎没有视频，待定
 - [ ] [CS3110：OCaml Programming Correct + Efficient + Beautiful](https://csdiy.wiki/%E7%BC%96%E7%A8%8B%E5%85%A5%E9%97%A8/CS3110/) CS3110 不仅局限于函数式编程，涵盖了 OCaml 语言基础，数据结构和算法，测试开发，形式证明，语言特性实现等诸多内容。而且内容之间并不割裂，而是递进和互补，非常值得学习。
-- [ ] [CS61A: Structure and Interpretation of Computer Programs](https://csdiy.wiki/%E7%BC%96%E7%A8%8B%E5%85%A5%E9%97%A8/CS61A/)注意这不仅仅是一门编程语言课，而是会深入到程序构造与运行的原理。最后你将在第 4 个 Project 中用 Python 实现一个 Scheme 的解释器。此外，抽象将是这门课的一大主题，你将学习到函数式编程、数据抽象、面向对象等等知识来让你的代码更易读，更模块化。当然，学习编程语言也是这门课的一大内容，你将会掌握 Python、Scheme 和 SQL 这三种编程语言，在它们的学习和比较中，相信你会拥有快速掌握一门新的编程语言的能力。
 - [ ] [CS144: Computer Network](https://csdiy.wiki/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BD%91%E7%BB%9C/CS144/)在这门课的 Project 中，你将用 C++ 循序渐进地搭建出整个 TCP/IP 协议栈，实现 IP 路由以及 ARP 协议，最后利用你自己的协议栈代替 Linux Kernel 的网络协议栈和其他学生的计算机进行通信，非常 amazing！
 - [ ] [Stanford CS142: Web Applications](https://csdiy.wiki/Web%E5%BC%80%E5%8F%91/CS142/)课程似乎没有视频只有ppt。斯坦福的 Web 应用开发课程，内容覆盖了 HTML, CSS, JavaScript, ReactJs, NodeJS, ExpressJS, Web安全等等。8 个 Project 会让你在实战中锻炼自己的 Web 开发技巧。
 - [ ] [UMich EECS 498-007 / 598-005: Deep Learning for Computer Vision](https://csdiy.wiki/%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0/EECS498-007/)可以跳着学，作业质量据说很高，包括VAE, GAN的内容
 - [ ] [Columbia STAT 8201: Deep Generative Models](https://csdiy.wiki/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0%E8%BF%9B%E9%98%B6/STAT8201/)只有slides，包含GAN的理论知识，相对硬核
 - [ ] [图释 Gilbert Strang 的 “给每个人的线性代数”](https://github.com/kenjihiranabe/The-Art-of-Linear-Algebra)12页的pdf，图释线性代数
+- [x] [CS61A: Structure and Interpretation of Computer Programs](https://csdiy.wiki/%E7%BC%96%E7%A8%8B%E5%85%A5%E9%97%A8/CS61A/)注意这不仅仅是一门编程语言课，而是会深入到程序构造与运行的原理。最后你将在第 4 个 Project 中用 Python 实现一个 Scheme 的解释器。此外，抽象将是这门课的一大主题，你将学习到函数式编程、数据抽象、面向对象等等知识来让你的代码更易读，更模块化。当然，学习编程语言也是这门课的一大内容，你将会掌握 Python、Scheme 和 SQL 这三种编程语言，在它们的学习和比较中，相信你会拥有快速掌握一门新的编程语言的能力。
 - [x] [MIT-Missing-Semester](https://csdiy.wiki/%E7%BC%96%E7%A8%8B%E5%85%A5%E9%97%A8/MIT-Missing-Semester/)，选取部分资料学习,中文课程主页有配套习题解答和学习笔记看情况可速通
 - [x] [CS106L: Standard C++ Programming](https://csdiy.wiki/%E7%BC%96%E7%A8%8B%E5%85%A5%E9%97%A8/CS106L/) 这门课会深入到很多标准 C++ 的特性和语法，让你编写出高质量的 C++ 代码。
 - [x] [MIT Web Development Crash Course](https://csdiy.wiki/Web%E5%BC%80%E5%8F%91/mitweb/)为期 4 周，基本覆盖了 Web 开发的前后端大部分技术栈。
